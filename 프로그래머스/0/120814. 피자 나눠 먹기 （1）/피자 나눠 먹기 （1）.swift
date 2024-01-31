@@ -1,9 +1,6 @@
 import Foundation
 
 func solution(_ n:Int) -> Int {
-    let pizza = 7
+   n / 7 + (n % 7 > 0 ? 1 : 0)
     
-    let result = (n + pizza - 1) / pizza
-    
-    return result
 }
