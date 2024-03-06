@@ -6,10 +6,8 @@ func solution(_ myString:String, _ pat:String) -> Int {
     for char in myString {
         if char == "A" {
             modifiedString.append("B")
-        } else if char == "B" {
-            modifiedString.append("A")
         } else {
-            modifiedString.append(char)
+            modifiedString.append("A")
         }
     }
     
